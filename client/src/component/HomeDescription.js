@@ -4,11 +4,11 @@ import { SocialIcon } from 'react-social-icons';
 const HomeDescription = () => {
     return (
         <>
-            <div className="text-center text-danger" style={{fontFamily:'Sansita Swashed', fontSize:"2rem"}}>
+            <div className="text-center text-danger mb-1" style={{fontFamily:'Sansita Swashed', fontSize:"2rem"}}>
                Getting Married! <br></br>
                         ......................................
                 <br></br>
-                October 9th | Scottsdale, AZ {''}
+                10-9-2021 | Scottsdale, AZ {''}
             </div>
         </>
     )
