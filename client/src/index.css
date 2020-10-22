@@ -22,6 +22,7 @@ html {
   @media only screen and (max-width: 375px) {
     body {
       height: "150%";
+      background-repeat: repeat;
   }
   }
   
