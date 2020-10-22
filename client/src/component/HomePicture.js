@@ -5,7 +5,7 @@ import axios from "axios"
 const HomePicture = () => {
     return (
         <>
-            <div className="text-center text-primary " style={{fontFamily:'Sansita Swashed'}}>
+            <div className="text-center text-primary" style={{fontFamily:'Sansita Swashed'}}>
                 <p style={{fontSize: "3rem"}}>
                     <cite>Schwyn & Kalee</cite>
                 </p>

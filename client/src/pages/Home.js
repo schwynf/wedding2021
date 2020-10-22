@@ -26,10 +26,13 @@ const Home = () => {
 
     return (
         <>
+            <div className="container">
+
             <Nav></Nav>
             <HomePicture></HomePicture>
             <HomeDescription></HomeDescription>
             <ContactModal></ContactModal>
+            </div>
         </>
     )
 }
