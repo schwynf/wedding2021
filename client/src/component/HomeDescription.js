@@ -9,8 +9,6 @@ const HomeDescription = () => {
                         ......................................
                 <br></br>
                 October 9th | Scottsdale, AZ {''}
-                <br></br>
-                <br></br>
             </div>
         </>
     )
