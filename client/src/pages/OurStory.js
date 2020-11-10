@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import HomePicture from "../component/HomePicture"
+import HomeDescription from "../component/HomeDescription"
+import ContactModal from "../component/ContactModal"
+import EmailModal from "../component/EmailModal"
+import Header from "../component/Header"
 import Nav from "../component/Nav"
 
 const OurStory = () => {
@@ -23,6 +28,16 @@ const OurStory = () => {
     return (
         <>
             <Nav></Nav>
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                    </div>
+                    <div className="col-12">
+                        <Header title="Our Story"></Header>
+                    </div>
+                </div>
+                <ContactModal></ContactModal>
+            </div>
         </>
     )
 }
