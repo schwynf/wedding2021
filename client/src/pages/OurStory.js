@@ -31,9 +31,12 @@ const OurStory = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                    </div>
-                    <div className="col-12">
                         <Header title="Our Story"></Header>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12 ml-2 mr-2 mb-5" style={{fontFamily:'Sansita Swashed', fontSize:"2rem", backgroundColor:"white", height:"30rem", width: "15rem"}} >
+                        sssssssssssssssssssssssssssss
                     </div>
                 </div>
                 <ContactModal></ContactModal>
