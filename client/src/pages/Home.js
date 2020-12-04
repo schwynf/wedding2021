@@ -29,11 +29,13 @@ const Home = () => {
             <Nav></Nav>
             <div className="container">
                 <div className="row">
-                    <div className="col-12">
-                        <HomePicture></HomePicture>
+                    <div className="col-md-1 p-0">
                     </div>
-                    <div className="col-12">
-                        <HomeDescription></HomeDescription>
+                    <div className="col-12 col-md-10 p-0">
+                    <HomePicture></HomePicture>
+                    <HomeDescription></HomeDescription>
+                    </div>
+                    <div className="col-md-1 p-0">
                     </div>
                 </div>
                 <ContactModal></ContactModal>

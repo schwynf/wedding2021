@@ -10,7 +10,7 @@ const HomePicture = () => {
                 <p style={{fontSize: "3rem"}}>
                     <cite>Schwyn & Kalee</cite>
                 </p>
-                <img src={profilePic} id="maybe" style={{ width: "20rem", height: "23rem" }} className="img-thumbnail img-fluid shadow-lg" alt="Profile Img"></img>
+                <img src={profilePic} id="maybe" style={{ width: "28rem", height: "28rem" }} className="img-thumbnail img-fluid shadow-lg" alt="Profile Img"></img>
 
             </div>
         </>
