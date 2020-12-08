@@ -7,9 +7,9 @@
   border-radius: .25rem;
   max-width: 100%;
 }
-@media (max-height: 575.98px) { 
+@media (max-height: 700px) { 
     #maybe{
-      height: 10vh;
+      height: 50vh;
     }
   }
 
