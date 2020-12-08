@@ -28,8 +28,8 @@ const Home = () => {
 
     return (
         <>
-                <Nav></Nav>
-            <Confetti></Confetti>
+            <Nav></Nav>
+            <Confetti className="mt-2"></Confetti>
             <div className="container mt-5">
                 <div className="row" id="firstRow">
                     <div className="col-md-1 p-0">
