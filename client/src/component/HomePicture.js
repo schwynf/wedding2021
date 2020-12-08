@@ -9,9 +9,8 @@ const HomePicture = () => {
             <div className="text-center text-primary" style={{fontFamily:'Sansita Swashed'}}>
                 <p style={{fontSize: "3rem"}}>
                     <cite>Schwyn & Kalee</cite>
-                </p>
-                <img src={profilePic} id="maybe" style={{ width: "28rem", height: "30rem" }} className="img-thumbnail img-fluid shadow-lg" alt="Profile Img"></img>
-
+                </p>    
+                <img src={profilePic} id="maybe"  className="shadow-lg" alt="Profile Img"></img>
             </div>
         </>
     )

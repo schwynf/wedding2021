@@ -1,12 +1,20 @@
 
-@media screen and (max-width: 600px) {
-  img {
-    height: "20vh";
-  }
+#maybe {
+  height: 60vh;
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
 }
+@media (max-height: 575.98px) { 
+    #maybe{
+      height: 10vh;
+    }
+  }
 
 @media screen and (max-height: 400px) {
-  img {
-    display: "none";
+  #maybe {
+    display: none;
   }
 }
