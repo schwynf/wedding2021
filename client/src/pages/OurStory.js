@@ -3,7 +3,7 @@ import axios from "axios";
 import ContactModal from "../component/ContactModal"
 import Nav from "../component/Nav"
 import profilePic from "../images/profilePic.jpg"
-import "../css/OurStory.css"
+import "./OurStory.css"
 import Header from "../component/Header"
 
 const OurStory = () => {

@@ -28,16 +28,27 @@ const Home = () => {
 
     return (
         <>
-            <Nav></Nav>
+                <Nav></Nav>
             <Confetti></Confetti>
-            <div className="container">
-                <div className="row">
+            <div className="container mt-5">
+                <div className="row" id="firstRow">
                     <div className="col-md-1 p-0">
                         <div id="oval"></div>
                     </div>
                     <div className="col-12 col-md-10 p-0" id="gradient">
-                    <HomePicture></HomePicture>
-                    <HomeDescription></HomeDescription>
+                        <HomePicture></HomePicture>
+                        <HomeDescription></HomeDescription>
+                    </div>
+                    <div className="col-md-1 p-0">
+                    </div>
+                </div>
+                <div className="row" id="firstRow">
+                    <div className="col-md-1 p-0">
+                        <div id="oval"></div>
+                    </div>
+                    <div className="col-12 col-md-10 p-0" id="gradient">
+                        <HomePicture></HomePicture>
+                        <HomeDescription></HomeDescription>
                     </div>
                     <div className="col-md-1 p-0">
                     </div>
