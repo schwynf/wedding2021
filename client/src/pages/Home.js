@@ -32,13 +32,13 @@ const Home = () => {
             <Nav></Nav>
             <div className="container mt-5">
                 <div className="row" id="firstRow">
-                    <div className="col-md-1 p-0">
+                    <div className="col-md-1 p-0" id="firstDiv">
                     </div>
                     <div className="col-12 col-md-10 p-0" id="gradient">
                         <HomePicture></HomePicture>
                         <HomeDescription></HomeDescription>
                     </div>
-                    <div className="col-md-1 p-0">
+                    <div className="col-md-1 p-0" id="firstDiv">
                     </div>
                 </div>
                 <div className="row" id="secondRow">

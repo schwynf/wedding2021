@@ -21,3 +21,9 @@
     background-image: linear-gradient(to top right, blue,white);
 }
 
+@media (max-height: 700px) { 
+    #firstDiv{
+      display:none;
+    }
+  }
+
