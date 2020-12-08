@@ -28,12 +28,11 @@ const Home = () => {
 
     return (
         <>
-            <Nav></Nav>
             <Confetti className="mt-2"></Confetti>
+            <Nav></Nav>
             <div className="container mt-5">
                 <div className="row" id="firstRow">
                     <div className="col-md-1 p-0">
-                        <div id="oval"></div>
                     </div>
                     <div className="col-12 col-md-10 p-0" id="gradient">
                         <HomePicture></HomePicture>
@@ -42,13 +41,30 @@ const Home = () => {
                     <div className="col-md-1 p-0">
                     </div>
                 </div>
-                <div className="row" id="firstRow">
+                <div className="row" id="secondRow">
                     <div className="col-md-1 p-0">
                         <div id="oval"></div>
                     </div>
                     <div className="col-12 col-md-10 p-0" id="gradient">
-                        <HomePicture></HomePicture>
-                        <HomeDescription></HomeDescription>
+                        <div className="text-center text-primary" style={{ fontFamily: 'Sansita Swashed' }}>
+                            <p style={{ fontSize: "3rem" }}>
+                                <cite>Our Story</cite>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-md-1 p-0">
+                    </div>
+                </div>
+                <div className="row" id="thirdRow">
+                    <div className="col-md-1 p-0">
+                        <div id="oval"></div>
+                    </div>
+                    <div className="col-12 col-md-10 p-0" id="gradient">
+                        <div className="text-center text-primary" style={{ fontFamily: 'Sansita Swashed' }}>
+                            <p style={{ fontSize: "3rem" }}>
+                                <cite>Wedding Party</cite>
+                            </p>
+                        </div>
                     </div>
                     <div className="col-md-1 p-0">
                     </div>

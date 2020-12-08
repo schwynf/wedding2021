@@ -1,9 +1,23 @@
 #firstRow {
+    margin-top: 40px;
     background-image: url("../images/plaster.jpg");
-    height: 93vh; 
+    height: 99vh; 
   
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}#secondRow{
+    margin-top: -40px;
+    height: 110vh;
+    background-color: pink; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right,pink,white);
+}
+
+#thirdRow{
+    margin-top: -40px;
+    height: 100vh;
+    background-color: pink; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to top right, blue,white);
+}
+
