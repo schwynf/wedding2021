@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import profilePic from "../images/profilePic.jpg"
 import axios from "axios"
 import "./HomePicture.css"
+import Confetti from "./Confetti"
 
 const HomePicture = () => {
     return (

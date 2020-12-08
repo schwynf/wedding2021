@@ -15,16 +15,4 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-  /* @media only screen and (max-width: 375px) {
-    body {
-      background-image: url("./images/plaster.jpg");
-      height: 150%; 
-    
-     
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-  } */
   

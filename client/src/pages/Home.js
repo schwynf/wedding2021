@@ -5,6 +5,8 @@ import HomeDescription from "../component/HomeDescription"
 import ContactModal from "../component/ContactModal"
 import EmailModal from "../component/EmailModal"
 import Nav from "../component/Nav"
+import "./Home.css"
+import Confetti from "../component/Confetti"
 
 const Home = () => {
 
@@ -27,11 +29,13 @@ const Home = () => {
     return (
         <>
             <Nav></Nav>
+            <Confetti></Confetti>
             <div className="container">
                 <div className="row">
                     <div className="col-md-1 p-0">
+                        <div id="oval"></div>
                     </div>
-                    <div className="col-12 col-md-10 p-0">
+                    <div className="col-12 col-md-10 p-0" id="gradient">
                     <HomePicture></HomePicture>
                     <HomeDescription></HomeDescription>
                     </div>
