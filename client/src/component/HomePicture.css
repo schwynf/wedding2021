@@ -1,6 +1,12 @@
 
-#maybe {
-  height: "23rem";
-  width: "40rem";
+@media screen and (max-width: 600px) {
+  img {
+    height: "20vh";
+  }
 }
 
+@media screen and (max-height: 400px) {
+  img {
+    display: "none";
+  }
+}
