@@ -1,0 +1,20 @@
+#weddingPic {
+    height: 63vh;
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+}
+
+@media (max-height: 700px) {
+    #weddingPic {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    #weddingPic {
+        display: none;
+    }
+}

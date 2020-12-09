@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import HomePicture from "../component/HomePicture"
 import HomeDescription from "../component/HomeDescription"
+import HomeContent from "../component/HomeContent"
 import ContactModal from "../component/ContactModal"
 import EmailModal from "../component/EmailModal"
 import Nav from "../component/Nav"
@@ -30,20 +31,20 @@ const Home = () => {
         <>
             <Confetti className="mt-2"></Confetti>
             <Nav></Nav>
-            <div className="container mt-5">
+            <div className="container">
                 <div className="row" id="firstRow">
-                    <div className="col-md-1 p-0" id="firstDiv">
+                    <div className="col-md-1 p-0 erase" id="firstDiv">
                     </div>
                     <div className="col-12 col-md-10 p-0" id="gradient">
-                        <HomePicture></HomePicture>
-                        <HomeDescription></HomeDescription>
+                        {/* <HomePicture></HomePicture>
+                        <HomeDescription></HomeDescription> */}
+                        <HomeContent></HomeContent>
                     </div>
-                    <div className="col-md-1 p-0" id="firstDiv">
+                    <div className="col-md-1 p-0 erase" id="please">
                     </div>
                 </div>
                 <div className="row" id="secondRow">
-                    <div className="col-md-1 p-0">
-                        <div id="oval"></div>
+                    <div className="col-md-1 p-0 erase">
                     </div>
                     <div className="col-12 col-md-10 p-0" id="gradient">
                         <div className="text-center text-primary" style={{ fontFamily: 'Sansita Swashed' }}>
@@ -52,11 +53,11 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-1 p-0">
+                    <div className="col-md-1 p-0 erase">
                     </div>
                 </div>
                 <div className="row" id="thirdRow">
-                    <div className="col-md-1 p-0">
+                    <div className="col-md-1 p-0 erase">
                         <div id="oval"></div>
                     </div>
                     <div className="col-12 col-md-10 p-0" id="gradient">
@@ -66,7 +67,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-1 p-0">
+                    <div className="col-md-1 p-0 erase">
                     </div>
                 </div>
                 <ContactModal></ContactModal>
