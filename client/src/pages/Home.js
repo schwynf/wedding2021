@@ -56,7 +56,7 @@ const Home = () => {
                             </p>
                             <div id="canvas" className="text-light">
                                 Nisi scelerisque eu ultrices vitae auctor. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Libero volutpat sed cras ornare arcu dui vivamus. <br></br>
-                                <img src={HomePicture} className="mx-auto" style={{width:"50rem", height:"25rem"}}></img>
+                                <img src={HomePicture} className="mx-auto" id="story-img"></img>
                                 <br></br>Dignissim cras tincidunt lobortis feugiat vivamus at. Neque vitae tempus quam pellentesque nec nam aliquam. Orci ac auctor augue mauris. Vel facilisis volutpat est velit egestas dui. Tempus quam pellentesque nec nam aliquam sem et tortor.
 
                                 Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Sed felis eget velit aliquet sagittis id consectetur purus ut. Adipiscing elit pellentesque habitant morbi tristique senectus. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Porttitor lacus luctus accumsan tortor posuere ac. Adipiscing elit ut aliquam purus sit amet luctus venenatis. Vel fringilla est ullamcorper eget nulla facilisi. Nisi vitae suscipit tellus mauris a diam maecenas. Metus aliquam eleifend mi in nulla posuere.

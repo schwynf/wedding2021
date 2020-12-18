@@ -37,6 +37,10 @@
     overflow: auto;
 }
 
+#story-img{
+    width:"50rem";
+    height:"25rem"
+}
 @media (max-height: 700px) {
     .erase {
         display: none;
@@ -46,5 +50,8 @@
 @media (max-height: 700px) {
     #firstRow {
         height: 86vh;
+    }
+    #story-img{
+        width: 20rem;
     }
 }
