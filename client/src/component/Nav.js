@@ -5,7 +5,7 @@ import "./Nav.css"
 const Nav = () => {
     return (
         <>
-        <nav className="navbar navbar-expand navbar-light bg-light" id="nav" style={{fontFamily:'Sansita Swashed'}}>
+        <nav className="navbar navbar-expand navbar-light bg-light fixed-top" id="nav" style={{fontFamily:'Sansita Swashed'}}>
             <a className="navbar-brand font-weight-bolder" href="/">S&K</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

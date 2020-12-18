@@ -1,35 +1,53 @@
 #firstRow {
     margin-top: 40px;
     background-image: url("../images/plaster.jpg");
-    height: 92vh; 
-  
+    height: 92vh;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}#secondRow{
+}
+
+/* #secondRow{
     margin-top: -40px;
     height: 106vh;
-    background-color: pink; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right,pink,white);
+    background-color: rgb(32, 185, 255);
+    background-image: linear-gradient(to top right,rgb(32, 185, 255),white);
+} */
+
+#secondRow {
+    margin-top: -40px;
+    height: 106vh;
+    background-image: url("../images/cupcakes.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#thirdRow{
+#thirdRow {
     margin-top: -40px;
     height: 100vh;
-    background-color: pink; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to top right, blue,white);
+    background-color: red;
+    background-image: linear-gradient(to top right, red, white);
 }
 
-@media (max-height: 700px) { 
-    .erase{
-      display:none;
+#canvas {
+    height: 70vh;
+    background-color: pink;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 25px;
+    overflow: auto;
+}
+
+@media (max-height: 700px) {
+    .erase {
+        display: none;
     }
 }
 
 @media (max-height: 700px) {
     #firstRow {
-        height: 91vh;
+        height: 87vh;
     }
 }
-
