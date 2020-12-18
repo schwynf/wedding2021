@@ -15,12 +15,12 @@ const Nav = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link activeClass="active" to="our-story" spy={true} smooth={true} offset={-50} duration={600}>
+                        <Link activeClass="active" to="our-story" spy={true} smooth={true} offset={-63} duration={600}>
                         <a className="nav-link">Story</a> 
                         </Link>
                     </li>
                     <li className="nav-item">
-                    <Link activeClass="active" to="wedding-party" spy={true} smooth={true} offset={-50} duration={600}>
+                    <Link activeClass="active" to="wedding-party" spy={true} smooth={true} offset={-63} duration={600}>
                         <a className="nav-link">Party</a> 
                         </Link>
                     </li>

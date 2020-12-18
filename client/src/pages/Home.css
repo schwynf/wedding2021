@@ -1,7 +1,6 @@
 #firstRow {
-    margin-top: 40px;
     background-image: url("../images/plaster.jpg");
-    height: 92vh;
+    height: 93vh;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -16,8 +15,7 @@
 } */
 
 #secondRow {
-    margin-top: -40px;
-    height: 106vh;
+    height: 93vh;
     background-image: url("../images/cupcakes.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -25,8 +23,7 @@
 }
 
 #thirdRow {
-    margin-top: -40px;
-    height: 94vh;
+    height: 93vh;
     background-color: red;
     background-image: linear-gradient(to top right, red, white);
 }
@@ -48,6 +45,6 @@
 
 @media (max-height: 700px) {
     #firstRow {
-        height: 87vh;
+        height: 86vh;
     }
 }
