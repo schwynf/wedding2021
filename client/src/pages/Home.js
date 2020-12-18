@@ -41,7 +41,7 @@ const Home = () => {
                     </div>
                     <div className="col-12 col-md-10 p-0" id="gradient">
                         <HomeContent></HomeContent>
-                        <Link activeClass="active" to="oval" spy={true} smooth={true} offset={-50} duration={600}>
+                        <Link activeClass="active" to="scoll" spy={true} smooth={true} offset={-50} duration={600}>
           Test 1
         </Link>
                     </div>
@@ -75,7 +75,7 @@ const Home = () => {
                     <div className="col-12 col-md-10 p-0" id="gradient">
                         <div className="text-center text-danger" style={{ fontFamily: 'Sansita Swashed' }}>
                             <p style={{ fontSize: "3rem" }}>
-                                <cite>Wedding Party</cite>
+                                <cite id="scoll">Wedding Party</cite>
                             </p>
                         </div>
                     </div>
