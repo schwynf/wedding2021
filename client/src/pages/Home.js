@@ -54,7 +54,7 @@ const Home = () => {
                             <p style={{ fontSize: "3rem", fontFamily: 'Sansita Swashed' }}>
                                 <cite id="our-story">Our Story</cite>
                             </p>
-                            <div id="canvas" className="text-light">
+                            <div id="canvas" className="text-danger">
                                 Nisi scelerisque eu ultrices vitae auctor. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Libero volutpat sed cras ornare arcu dui vivamus. <br></br>
                                 <img src={HomePicture} className="mx-auto" id="story-img"></img>
                                 <br></br>Dignissim cras tincidunt lobortis feugiat vivamus at. Neque vitae tempus quam pellentesque nec nam aliquam. Orci ac auctor augue mauris. Vel facilisis volutpat est velit egestas dui. Tempus quam pellentesque nec nam aliquam sem et tortor.

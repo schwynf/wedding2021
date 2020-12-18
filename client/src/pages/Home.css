@@ -7,20 +7,18 @@
     background-size: cover;
 }
 
-/* #secondRow{
-    margin-top: -40px;
-    height: 106vh;
+#secondRow{
+    height: 93vh;
     background-color: rgb(32, 185, 255);
-    background-image: linear-gradient(to top right,rgb(32, 185, 255),white);
-} */
+}
 
-#secondRow {
+/* #secondRow {
     height: 93vh;
     background-image: url("../images/cupcakes.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 #thirdRow {
     height: 93vh;
@@ -30,7 +28,10 @@
 
 #canvas {
     height: 70vh;
-    background-color: pink;
+    background-image: url("../images/plaster.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 2px solid blue;
     border-radius: 5px;
     padding: 25px;
@@ -38,8 +39,8 @@
 }
 
 #story-img{
-    width:"50rem";
-    height:"25rem"
+    width:50rem;
+    height:25rem;
 }
 @media (max-height: 700px) {
     .erase {
@@ -53,5 +54,6 @@
     }
     #story-img{
         width: 20rem;
+        height: 10rem;
     }
 }
