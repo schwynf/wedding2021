@@ -9,7 +9,7 @@
 
 #secondRow{
     height: 93vh;
-    background-image: linear-gradient(to top right,white, rgba(255, 0, 0, 0.623));
+    background-image: linear-gradient(to top left,red,white,red);
 }
 
 #thirdRow {
@@ -31,8 +31,8 @@
 }
 
 #story-img{
-    width:45rem;
-    height:25rem;
+    width:30rem;
+    height:22rem;
 }
 @media (max-height: 700px) {
     .erase {
