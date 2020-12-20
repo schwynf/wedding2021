@@ -8,19 +8,21 @@ const Nav = () => {
     return (
         <>
         <nav className="navbar navbar-expand navbar-light bg-light fixed-top" id="nav" style={{fontFamily:'Sansita Swashed'}}>
-            <a className="navbar-brand font-weight-bolder" href="/">S&K</a>
+                <Link activeClass="active" to="firstRow" spy={true} smooth={true} offset={-57} duration={600}>
+            <a className="navbar-brand font-weight-bolder">S&K</a>
+                </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link activeClass="active" to="our-story" spy={true} smooth={true} offset={-63} duration={600}>
+                        <Link activeClass="active" to="secondRow" spy={true} smooth={true} offset={-56} duration={800}>
                         <a className="nav-link">Story</a> 
                         </Link>
                     </li>
                     <li className="nav-item">
-                    <Link activeClass="active" to="wedding-party" spy={true} smooth={true} offset={-63} duration={600}>
+                    <Link activeClass="active" to="thirdRow" spy={true} smooth={true} offset={-56} duration={800}>
                         <a className="nav-link">Party</a> 
                         </Link>
                     </li>

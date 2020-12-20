@@ -1,6 +1,6 @@
 #firstRow {
     background-image: url("../images/plaster.jpg");
-    height: 93vh;
+    height: 94vh;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -9,21 +9,13 @@
 
 #secondRow{
     height: 93vh;
-    background-color: rgb(32, 185, 255);
+    background-image: linear-gradient(to top right,white, rgba(255, 0, 0, 0.623));
 }
-
-/* #secondRow {
-    height: 93vh;
-    background-image: url("../images/cupcakes.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 #thirdRow {
     height: 93vh;
     background-color: red;
-    background-image: linear-gradient(to top right, red, white);
+    background-image: linear-gradient(to top right,white, rgb(32, 185, 255));
 }
 
 #canvas {
@@ -32,14 +24,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid blue;
+    border: 2px groove black;
     border-radius: 5px;
     padding: 25px;
     overflow: auto;
 }
 
 #story-img{
-    width:50rem;
+    width:45rem;
     height:25rem;
 }
 @media (max-height: 700px) {
