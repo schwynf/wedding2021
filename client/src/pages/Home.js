@@ -35,7 +35,7 @@ const Home = () => {
         <>
             <Confetti></Confetti>
             <Nav></Nav>
-            <div className="container">
+            <div>
                 {/* first row */}
                 <div className="row mt-5" id="firstRow">
                     <div className="col-md-1 p-0 erase" id="firstDiv">
@@ -51,7 +51,7 @@ const Home = () => {
                     <div className="col-md-1 p-0 erase">
                     </div>
                     <div className="col-12 col-md-10 p-0" id="gradient">
-                        <div className="text-center text-primary">
+                        <div className="text-center">
                             <p style={{ fontSize: "3rem", fontFamily: 'Sansita Swashed' }}>
                                 <cite id="our-story">Our Story</cite>
                             </p>

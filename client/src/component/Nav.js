@@ -9,7 +9,7 @@ const Nav = () => {
         <>
         <nav className="navbar navbar-expand navbar-light bg-light fixed-top" id="nav" style={{fontFamily:'Sansita Swashed'}}>
                 <Link activeClass="active" to="firstRow" spy={true} smooth={true} offset={-57} duration={600}>
-            <a className="navbar-brand font-weight-bolder">S&K</a>
+            <a className="navbar-brand font-weight-bolder" id="nav">S&K</a>
                 </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@ const Nav = () => {
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link activeClass="active" to="secondRow" spy={true} smooth={true} offset={-56} duration={800}>
-                        <a className="nav-link">Story</a> 
+                        <a className="nav-link" id="nav">Story</a> 
                         </Link>
                     </li>
                     <li className="nav-item">

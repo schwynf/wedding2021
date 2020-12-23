@@ -7,9 +7,13 @@
     background-size: cover;
 }
 
+#our-story{
+    color: rgb(218, 168, 32);
+}
+
 #secondRow{
     height: 93vh;
-    background-image: linear-gradient(to top left,red,white,red);
+    background-color: pink;
 }
 
 #thirdRow {

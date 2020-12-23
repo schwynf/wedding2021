@@ -1,3 +1,8 @@
+#nav{
+  opacity: 0.9;
+  color: rgb(218, 168, 32);
+}
+
 a:active {
     color: yellow;
   }

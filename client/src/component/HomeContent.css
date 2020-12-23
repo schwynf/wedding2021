@@ -7,6 +7,10 @@
     max-width: 100%;
 }
 
+.married{
+    color: rgb(218, 168, 32);
+}
+
 @media (max-height: 700px) {
     #weddingPic {
         height: 50vh;
