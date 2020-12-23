@@ -7,7 +7,7 @@ export default () => {
   return (
     <Confetti
       width={width}
-      height={2000}
+      height={1000}
       recycle={false} 
       numberOfPieces={1000}
     />

@@ -17,12 +17,12 @@ const Nav = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link activeClass="active" to="when-where" spy={true} smooth={true} offset={-56} duration={800}>
-                        <a className="nav-link" id="nav">Story</a> 
+                        <Link activeClass="active" to="when-content" spy={true} smooth={true} offset={-56} duration={800}>
+                        <a className="nav-link" id="story">Story</a> 
                         </Link>
                     </li>
                     <li className="nav-item">
-                    <Link activeClass="active" to="thirdRow" spy={true} smooth={true} offset={-56} duration={800}>
+                    <Link activeClass="active" to="registry-rvsp-content" spy={true} smooth={true} offset={-56} duration={800}>
                         <a className="nav-link">Party</a> 
                         </Link>
                     </li>

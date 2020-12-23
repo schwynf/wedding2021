@@ -8,7 +8,7 @@
 }
 
 .married{
-    color: rgb(218, 168, 32);
+    color: rgba(146, 141, 70, 0.849);
 }
 
 @media (max-height: 700px) {

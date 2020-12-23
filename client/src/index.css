@@ -1,16 +1,15 @@
 
 html {
   min-height: 100%;
-  overflow-y: scroll;
     margin: 0;
 }
 
 body{
   min-height: 100%;
   overflow-x:hidden;
-  background-color: rgb(226, 226, 216);
+  background-color: white;
 }
 
-canvas{
+/* canvas{
   display: none;
-}
+} */

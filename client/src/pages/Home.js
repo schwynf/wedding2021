@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import HomePicture from "../images/sedona.jpg"
-import  July from "../images/july4thphoto.jpg"
-import  Wedding from "../images/wedding.JPG"
-import  Redbird from "../images/redbird.JPG"
+import July from "../images/july4thphoto.jpg"
+import Wedding from "../images/wedding.JPG"
+import Redbird from "../images/redbird.JPG"
 import HomeContent from "../component/HomeContent"
 import ContactModal from "../component/ContactModal"
 import EmailModal from "../component/EmailModal"
@@ -47,20 +47,30 @@ const Home = () => {
                     </div>
                 </div>
                 {/* {new} */}
-                <div className="row" id="when-where">
-                    <div className="col-md-6 when-where">
+                <div className="row" id="when-content">
+                    <div className="col-md-6 when-content-pink">
                         <div className="text-center mt-5">join us!</div>
-                        <h1 className="where-font text-center">
+                        <h1 className="when-font text-center">
                             When
                         </h1>
-                        <h1 className="where-font text-center"> &Where</h1>
+                        <h1 className="when-font text-center"> &Where</h1>
                     </div>
-                    
-                    <div className="col-md-6 when-done time-font pt-5 text-center tt">
-                    <div>SATURDAY, 08.09.20 Scottsdale, 1026 Pakiri Rd, Pakiri 0972</div>
-                        <div className="text-left bg-danger" id="1">3pm Arrival</div>
-                        <div className="text-left mt-3" id="2">5pm Ceremony</div>
-                        <div className="text-left mt-3 bg-danger" id="3">6pm Celebration</div>
+                    <div className="col-md-6 when-content-beige time-font pt-5 text-center tt">
+                        <div>FRIDAY, 08.09.2020 <br></br>30 W Pakiri Rd, Scottsdale</div>
+                        <div className="" id="3"><span className="time">3 pm</span> Arrival</div>
+                        <div className="mt-3" id="4"><span className="time">4 pm</span> Ceremony</div>
+                        <div className=" mt-3 time-bgcolor" id="5"><span className="time">5 pm</span> Celebration</div>
+                    </div>
+                </div>
+                <div className="row" id="registry-rvsp-content">
+                    <div className="col-md-6 registry col-sm-offset-6">
+                        <div className="text-center mt-5">join us!</div>
+                        <h1 className="text-center">
+                            When
+                        </h1>
+                        <h1 className="text-center"> &Where</h1>
+                    </div>
+                    <div className="col-md-6 rvsp pt-5 text-center">
                     </div>
                 </div>
                 <ContactModal></ContactModal>
