@@ -35,7 +35,7 @@ const Home = () => {
         <>
             <Confetti></Confetti>
             <Nav></Nav>
-            <div class="container-fluid">
+            <div class="container">
                 {/* first row */}
                 <div className="row mt-5" id="firstRow">
                     <div className="col-md-1 p-0 erase" id="firstDiv">
@@ -46,50 +46,21 @@ const Home = () => {
                     <div className="col-md-1 p-0 erase" id="please">
                     </div>
                 </div>
-                {/* Story */}
-                <div className="row" id="secondRow">
-                    <div className="col-md-1 p-0 erase">
+                {/* {new} */}
+                <div className="row" id="when-where">
+                    <div className="col-md-6 when-where">
+                        <div className="text-center mt-5">join us!</div>
+                        <h1 className="where-font text-center">
+                            When
+                        </h1>
+                        <h1 className="where-font text-center"> &Where</h1>
                     </div>
-                    <div className="col-12 col-md-10 p-0" id="gradient">
-                        <div className="text-center">
-                            <p style={{ fontSize: "3rem", fontFamily: 'Sansita Swashed' }}>
-                                <cite id="our-story">Our Story</cite>
-                            </p>
-                            <div id="canvas" className="text-dark">
-                                How we met!!!!!!! <br></br>
-                                <img src={July} className="mx-auto" id="story-img"></img>
-                                <br></br>Dignissim cras tincidunt lobortis feugiat vivamus at. Neque vitae tempus quam pellentesque nec nam aliquam. Orci ac auctor augue mauris. Vel facilisis volutpat est velit egestas dui. Tempus quam pellentesque nec nam aliquam sem et tortor.
-
-                                Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Sed felis eget velit aliquet sagittis id consectetur purus ut. Adipiscing elit pellentesque habitant morbi tristique senectus. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Porttitor lacus luctus accumsan tortor posuere ac. Adipiscing elit ut aliquam purus sit amet luctus venenatis. Vel fringilla est ullamcorper eget nulla facilisi. Nisi vitae suscipit tellus mauris a diam maecenas. Metus aliquam eleifend mi in nulla posuere.
-                                <br></br>
-                                college Life!!!!!!! <br></br>
-                                <img src={Wedding} className="mx-auto" id="story-img"></img>
-                                <br></br>Dignissim cras tincidunt lobortis feugiat vivamus at. Neque vitae tempus quam pellentesque nec nam aliquam. Orci ac auctor augue mauris. Vel facilisis volutpat est velit egestas dui. Tempus quam pellentesque nec nam aliquam sem et tortor.
-
-                                Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Sed felis eget velit aliquet sagittis id consectetur purus ut. Adipiscing elit pellentesque habitant morbi tristique senectus. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Porttitor lacus luctus accumsan tortor posuere ac. Adipiscing elit ut aliquam purus sit amet luctus venenatis. Vel fringilla est ullamcorper eget nulla facilisi. Nisi vitae suscipit tellus mauris a diam maecenas. Metus aliquam eleifend mi in nulla posuere.
-                                <br></br>
-                                college Life!!!!!!! <br></br>
-                                <img src={Redbird} className="mx-auto" id="story-img"></img>
-                                <br></br>Dignissim cras tincidunt lobortis feugiat vivamus at. Neque vitae tempus quam pellentesque nec nam aliquam. Orci ac auctor augue mauris. Vel facilisis volutpat est velit egestas dui. Tempus quam pellentesque nec nam aliquam sem et tortor.
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-1 p-0 erase">
-                    </div>
-                </div>
-                {/* Party */}
-                <div className="row" id="thirdRow">
-                    <div className="col-md-1 p-0 erase">
-                        <div id="oval"></div>
-                    </div>
-                    <div className="col-12 col-md-10 p-0" id="gradient">
-                        <div className="text-center text-danger" style={{ fontFamily: 'Sansita Swashed' }}>
-                            <p style={{ fontSize: "3rem" }}>
-                                <cite id="wedding-party">Wedding Party</cite>
-                            </p>
-                        </div>
-                    </div>
-                    <div className="col-md-1 p-0 erase">
+                    
+                    <div className="col-md-6 when-done time-font pt-5 text-center tt">
+                    <div>SATURDAY, 08.09.20 Scottsdale, 1026 Pakiri Rd, Pakiri 0972</div>
+                        <div className="text-left bg-danger" id="1">3pm Arrival</div>
+                        <div className="text-left mt-3" id="2">5pm Ceremony</div>
+                        <div className="text-left mt-3 bg-danger" id="3">6pm Celebration</div>
                     </div>
                 </div>
                 <ContactModal></ContactModal>

@@ -17,7 +17,7 @@ const Nav = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link activeClass="active" to="secondRow" spy={true} smooth={true} offset={-56} duration={800}>
+                        <Link activeClass="active" to="when-where" spy={true} smooth={true} offset={-56} duration={800}>
                         <a className="nav-link" id="nav">Story</a> 
                         </Link>
                     </li>

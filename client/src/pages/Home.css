@@ -7,13 +7,37 @@
     background-size: cover;
 }
 
+.when-where{
+
+    background-color: pink;
+}
+
+.where-font{
+    font-size: 10rem;
+}
+
+.when-done{
+    background-color: aliceblue;
+}
+
+#when-where{
+    font-Family: 'Sansita Swashed';
+    color: rgb(218, 168, 32);
+    height: 94vh;
+}
+
+.time-font{
+    font-size: 3rem;
+}
+
+
 #our-story{
     color: rgb(218, 168, 32);
 }
 
 #secondRow{
     height: 93vh;
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.904);
 }
 
 #thirdRow {
@@ -41,6 +65,17 @@
 @media (max-height: 700px) {
     .erase {
         display: none;
+    }
+
+    .where-font{
+        font-size: 5rem;
+    }
+    .when-done{
+        height:50vh;
+    }
+
+    .tt{
+        font-size: 1.5rem;
     }
 }
 
