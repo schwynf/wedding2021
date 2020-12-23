@@ -62,15 +62,16 @@ const Home = () => {
                         <div className=" mt-3 time-bgcolor" id="5"><span className="time">5 pm</span> Celebration</div>
                     </div>
                 </div>
-                <div className="row" id="registry-rvsp-content">
+                <div className="row text-center" id="registry-rvsp-content">
                     <div className="col-md-6 registry col-sm-offset-6">
-                        <div className="text-center mt-5">join us!</div>
-                        <h1 className="text-center">
-                            When
+                        <div className="text-center pt-5">join us!</div>
+                        <h1 className="text-center registry-h1">
+                            Schwyn & Kalee Wedding
                         </h1>
-                        <h1 className="text-center"> &Where</h1>
+                        <button className="btn btn-warning" type="submit">RVSP NOW!</button>
                     </div>
                     <div className="col-md-6 rvsp pt-5 text-center">
+                        Registry
                     </div>
                 </div>
                 <ContactModal></ContactModal>
