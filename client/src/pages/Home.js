@@ -35,7 +35,7 @@ const Home = () => {
         <>
             <Confetti></Confetti>
             <Nav></Nav>
-            <div>
+            <div class="container-fluid">
                 {/* first row */}
                 <div className="row mt-5" id="firstRow">
                     <div className="col-md-1 p-0 erase" id="firstDiv">
