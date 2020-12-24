@@ -56,7 +56,7 @@ const Home = () => {
                         <h1 className="when-font text-center"> &Where</h1>
                     </div>
                     <div className="col-md-6 when-content-beige time-font pt-5 text-center tt">
-                        <div>FRIDAY, 08.09.2020 <br></br>30 W Pakiri Rd, Scottsdale</div>
+                        <div>FRIDAY, 08.09.2020 <br></br>E Jomax Rd, Phoenix</div>
                         <div className="" id="3"><span className="time">3 pm</span> Arrival</div>
                         <div className="mt-3" id="4"><span className="time">4 pm</span> Ceremony</div>
                         <div className=" mt-3 time-bgcolor" id="5"><span className="time">5 pm</span> Celebration</div>
@@ -76,6 +76,11 @@ const Home = () => {
                             Registry
                         </h1>
                         <button className="btn btn-warning" type="submit">Wedding Registry</button>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12 wedding-pic text-center">
+                        <a id="story-a"href="">OUR STORY</a>
                     </div>
                 </div>
                 <ContactModal></ContactModal>
