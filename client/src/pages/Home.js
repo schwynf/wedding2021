@@ -78,7 +78,7 @@ const Home = () => {
                         <button className="btn btn-warning" type="submit">Wedding Registry</button>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row wedding-pic-content">
                     <div className="col-12 wedding-pic text-center">
                         <a id="story-a"href="">OUR STORY</a>
                     </div>
