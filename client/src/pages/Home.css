@@ -83,7 +83,7 @@
     background-attachment: fixed;
     height: 100vh;
     width: 90vh;
-    padding-top:50%;
+    padding-top:45%;
     font-size: 5rem;
     font-weight: bolder;
     color: white;
@@ -124,8 +124,13 @@
 
     .rvsp{
         background-color: rgb(245, 239, 220);
-        height: 50vh;
+        height: 60vh;
     }
+
+    
+
+
+
 }
 
 @media (max-height: 700px) {
