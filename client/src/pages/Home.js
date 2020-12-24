@@ -63,15 +63,19 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="row text-center" id="registry-rvsp-content">
-                    <div className="col-md-6 registry col-sm-offset-6">
-                        <div className="text-center pt-5">join us!</div>
+                    <div className="col-md-6 mb-0 registry col-sm-offset-6">
                         <h1 className="text-center registry-h1">
                             Schwyn & Kalee Wedding
                         </h1>
                         <button className="btn btn-warning" type="submit">RVSP NOW!</button>
                     </div>
-                    <div className="col-md-6 rvsp pt-5 text-center">
-                        Registry
+                    <div className="col-md-6 mt-0 rvsp text-center">
+                        <h5>Gifts?</h5>
+                        <h1 className="text-center registry-h1">
+                            Gift<br></br>
+                            Registry
+                        </h1>
+                        <button className="btn btn-warning" type="submit">Wedding Registry</button>
                     </div>
                 </div>
                 <ContactModal></ContactModal>

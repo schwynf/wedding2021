@@ -18,17 +18,17 @@ const Nav = () => {
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link activeClass="active" to="when-content" spy={true} smooth={true} offset={-56} duration={800}>
-                        <a className="nav-link" id="story">Story</a> 
+                        <a className="nav-link" id="story">Details</a> 
                         </Link>
                     </li>
                     <li className="nav-item">
                     <Link activeClass="active" to="registry-rvsp-content" spy={true} smooth={true} offset={-56} duration={800}>
-                        <a className="nav-link">Party</a> 
+                        <a className="nav-link">RSVP</a> 
                         </Link>
                     </li>
                     <li className="nav-item">
                     <Link activeClass="active" to="scoll" spy={true} smooth={true} offset={-50} duration={600}>
-                        <a className="nav-link">Travel</a> 
+                        <a className="nav-link">Story</a> 
                         </Link>
                     </li>
                     <li className="nav-item">

@@ -60,7 +60,7 @@
 #registry-rvsp-content{
     font-Family: 'Sansita Swashed';
     color: rgba(146, 141, 70, 0.849);
-    height: 94vh;
+    height: 93vh;
 }
 
 .registry{
@@ -92,13 +92,23 @@
     .tt{
         font-size: 1.5rem;
     }
+    .registry-rvsp-content{
+        margin-top: 0px;
+    }
 
     .registry{
         background-color: pink;
+        height: 60vh;
+    }
+
+
+    .registry-h1{
+        font-size: 4rem;
     }
 
     .rvsp{
         background-color: rgb(245, 239, 220);
+        height: 50vh;
     }
 }
 
@@ -111,3 +121,4 @@
         height: 10rem;
     }
 }
+
