@@ -100,10 +100,13 @@
     }
 
     .when-font{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .when-content-beige{
         height:50vh;
+    }
+    .when-content-pink{
+        height:45vh;
     }
 
     .tt{
@@ -125,11 +128,16 @@
 
     .rvsp{
         background-color: rgb(247, 244, 237);
-        height: 60vh;
+        height: 50vh;
     }
 
     .wedding-pic-content{
         margin-top: 10%;
+        display:none;
+    }
+
+    #border{
+        height: 2rem;
     }
 
     
