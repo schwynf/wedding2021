@@ -27,7 +27,7 @@ const Nav = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                    <Link activeClass="active" to="scoll" spy={true} smooth={true} offset={-50} duration={600}>
+                    <Link activeClass="active" to="wedding-pic" spy={true} smooth={true} offset={-50} duration={600}>
                         <a className="nav-link">Story</a> 
                         </Link>
                     </li>
