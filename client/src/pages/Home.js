@@ -17,6 +17,7 @@ const Home = () => {
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [rsvp, setRSVP] = useState(true);
 
     const handleFormSubmit = (event) => {
         event.preventDefault();
@@ -30,6 +31,20 @@ const Home = () => {
             }).catch((error) => { console.log(error) })
         }
     };
+
+    let checkRSVP = (event) => {
+        event.preventDefault();
+        if (rsvp === true){
+            setRSVP(false);
+        }else{
+            setRSVP(true)
+        }
+    }
+
+    let amazon = () => {
+        console.log("amazon")
+        window.location.href="https://www.amazon.com/registries";
+    }
 
     return (
         <>
@@ -49,7 +64,9 @@ const Home = () => {
                 {/* {new} */}
                 <div className="row" id="when-content">
                     <div className="col-md-6 when-content-pink">
-                        <div className="text-center mt-5">join us!</div>
+                        <div className="text-center mt-5">JOIN US!</div>
+                        <br></br>
+                        <div id="border"></div>
                         <h1 className="when-font text-center">
                             When
                         </h1>
@@ -64,22 +81,30 @@ const Home = () => {
                 </div>
                 <div className="row text-center" id="registry-rvsp-content">
                     <div className="col-md-6 mb-0 registry col-sm-offset-6">
-                        <h1 className="text-center registry-h1">
-                            Schwyn & Kalee Wedding
-                        </h1>
-                        <button className="btn btn-warning" type="submit">RVSP NOW!</button>
+                        {rsvp ? (<div><h1 className="text-center registry-h1">
+                            Schwyn & Kalee Wedding</h1>
+                            <button className="btn btn-warning mt-2" type="submit" onClick={checkRSVP}>RVSP NOW!</button></div>) : (<div><div>Thanks!!!!!!!</div>
+                                <br></br>
+                                <br></br>
+                                <input className="form-control" type="text" placeholder="Name"></input>
+                                <br></br>
+                                <input className="form-control" type="text" placeholder="Guest"></input>
+                                <br></br>
+                                <input className="form-control" type="text" placeholder="Email"></input>
+                                <br></br>
+                                <button className="btn btn-warning mt-2" type="submit" onClick={checkRSVP}>RVSP NOW!</button></div>)}
+
                     </div>
                     <div className="col-md-6 mt-0 rvsp text-center">
-                        <h5>Gifts?</h5>
                         <h1 className="text-center registry-h1">
                             Gift<br></br>
                             Registry
                         </h1>
-                        <button className="btn btn-warning" type="submit">Wedding Registry</button>
+                        <button className="btn btn-warning mt-5" type="submit" onClick={amazon}>Wedding Registry</button>
                     </div>
                 </div>
                 <div className="row wedding-pic-content">
-                    <div className="col-12 wedding-pic">
+                    <div className="col-12 wedding-pic" id="wedding-pic">
                     </div>
                 </div>
                 <ContactModal></ContactModal>
