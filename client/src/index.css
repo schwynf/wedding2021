@@ -10,6 +10,8 @@ body{
   background-color: white;
 }
 
-/* canvas{
-  display: none;
-} */
+@media (max-height: 700px) {
+  body{
+    background-color: pink;
+  }
+}

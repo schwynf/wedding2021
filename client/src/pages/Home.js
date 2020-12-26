@@ -79,8 +79,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="row wedding-pic-content">
-                    <div className="col-12 wedding-pic text-center">
-                        <a id="story-a"href="">OUR STORY</a>
+                    <div className="col-12 wedding-pic">
                     </div>
                 </div>
                 <ContactModal></ContactModal>
