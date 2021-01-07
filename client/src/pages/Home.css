@@ -1,16 +1,23 @@
-
+/* first row */
 
 #firstRow {
     background-image: url("../images/plaster.jpg");
-    /* height: 94vh; */
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 3.5rem;
 }
+
+/* When content */
+
+#when-content{
+    font-Family: 'Sansita Swashed';
+    color:rgba(147, 140, 91, 1);
+}
 .when-content-pink{
     background-color: rgb(253, 213, 195) ;
+    padding-top:4.8rem;
+    padding-bottom: 4.8rem;
 }
 
 .when-font{
@@ -19,13 +26,9 @@
 
 .when-content-beige{
     background-color: rgb(247, 244, 237);
+    padding-top: 7rem;
 }
 
-#when-content{
-    font-Family: 'Sansita Swashed';
-    color:rgba(147, 140, 91, 1);
-    height: 94vh;
-}
 
 .time-font{
     font-size: 3rem;
@@ -35,29 +38,10 @@
     color: salmon;
 }
 
-
-#our-story{
-    color:rgba(147, 140, 91, 1);
-    font-size: 80px;
-    margin-top: 45%;
-}
-
-
-#canvas {
-    height: 70vh;
-    background-image: url("../images/plaster.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 2px groove black;
-    border-radius: 5px;
-    padding: 25px;
-    overflow: auto;
-}
-
-#story-img{
-    width:30rem;
-    height:22rem;
+#border{
+    height: 4rem;
+    width:50%;
+    border-right: 1px solid rgba(147, 140, 91, 1);
 }
 
 /* registry */
@@ -65,16 +49,17 @@
 #registry-rvsp-content{
     font-Family: 'Sansita Swashed';
     color:rgba(147, 140, 91, 1);
-    height: 93vh;
 }
 
 .registry{
     background-color: rgb(247, 244, 237);
+    padding-top:2rem;
+    padding-bottom: 8.35rem;
 }
 
 .registry-h1{
     font-size: 7rem;
-    padding-top: 10%;
+    /* padding-top: 10%; */
 }
 
 .rvsp{
@@ -82,6 +67,12 @@
     padding-top: 8%;
 }
 
+.registry-button{
+    margin-top: 4.8rem;
+}
+
+
+/* Picuture for story */
 .wedding-pic{
     background-image: url("../images/wedding.JPG");
     background-position: center;
@@ -92,48 +83,45 @@
     padding-top:0%;
 }
 
-#border{
-    height: 4rem;
-    width:50%;
-    border-right: 1px solid rgba(147, 140, 91, 1);
+
+#our-story{
+    color:rgba(147, 140, 91, 1);
+    font-size: 80px;
+    margin-top: 45%;
 }
 
 
 @media (max-height: 700px) {
-    .erase {
-        display: none;
-    }
 
     .when-font{
         font-size: 4rem;
-    }
-    .when-content-beige{
-        height:50vh;
-    }
-    .when-content-pink{
-        height:45vh;
     }
 
     .tt{
         font-size: 1.5rem;
     }
-    #registry-rvsp-content{
+    /* #registry-rvsp-content{
         margin-top: 50px;
-    }
+    } */
 
     .registry{
         background-color: rgb(253, 213, 195) ;
-        height: 50vh;
+        padding-top:3.3rem;
+        padding-bottom: 2rem;
     }
 
 
     .registry-h1{
-        font-size: 4rem;
+        font-size: 3.3rem;
+    }
+    .registry-button{
+        margin-top: 1rem;
     }
 
     .rvsp{
         background-color: rgb(247, 244, 237);
-        height: 50vh;
+        padding-top:3.3rem;
+        padding-bottom: 2rem;
     }
 
     .wedding-pic-content{
@@ -158,6 +146,10 @@
     #story-img{
         width: 20rem;
         height: 10rem;
+    }
+
+    .but{
+        margin-bottom: 40px;
     }
 }
 

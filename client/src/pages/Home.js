@@ -34,16 +34,16 @@ const Home = () => {
 
     let checkRSVP = (event) => {
         event.preventDefault();
-        if (rsvp === true){
+        if (rsvp === true) {
             setRSVP(false);
-        }else{
+        } else {
             setRSVP(true)
         }
     }
 
     let amazon = () => {
         console.log("amazon")
-        window.location.href="https://www.amazon.com/registries";
+        window.location.href = "https://www.amazon.com/registries";
     }
 
     return (
@@ -53,18 +53,14 @@ const Home = () => {
             <div class="container">
                 {/* first row */}
                 <div className="row" id="firstRow">
-                    <div className="col-md-1 p-0 erase" id="firstDiv">
-                    </div>
-                    <div className="col-12 col-md-10 p-0" id="gradient">
+                    <div className="col-12 col-md-10 p-0" style={{ margin: "auto" }} id="gradient">
                         <HomeContent></HomeContent>
                     </div>
-                    <div className="col-md-1 p-0 erase" id="please">
-                    </div>
                 </div>
-                {/* {new} */}
+                {/* {Join Us Content} */}
                 <div className="row" id="when-content">
                     <div className="col-md-6 when-content-pink">
-                        <div className="text-center mt-5">JOIN US!</div>
+                        <div className="text-center">JOIN US!</div>
                         <br></br>
                         <div id="border"></div>
                         <h1 className="when-font text-center">
@@ -72,18 +68,19 @@ const Home = () => {
                         </h1>
                         <h1 className="when-font text-center"> &Where</h1>
                     </div>
-                    <div className="col-md-6 when-content-beige time-font pt-5 text-center tt">
+                    <div className="col-md-6 when-content-beige time-font text-center tt">
                         <div>FRIDAY, 08.09.2020 <br></br>E Jomax Rd, Phoenix</div>
                         <div className="" id="3"><span className="time">3 pm</span> Arrival</div>
                         <div className="mt-3" id="4"><span className="time">4 pm</span> Ceremony</div>
                         <div className=" mt-3 time-bgcolor" id="5"><span className="time">5 pm</span> Celebration</div>
                     </div>
                 </div>
+                {/* Registry/RSVP */}
                 <div className="row text-center" id="registry-rvsp-content">
-                    <div className="col-md-6 mb-0 registry col-sm-offset-6">
+                    <div className="col-md-6 registry col-sm-offset-6">
                         {rsvp ? (<div><h1 className="text-center registry-h1">
                             Schwyn & Kalee Wedding</h1>
-                            <button className="btn btn-warning mt-2" type="submit" onClick={checkRSVP}>RVSP NOW!</button></div>) : (<div><div>Thanks!!!!!!!</div>
+                            <button className="btn btn-warning mt-2 but" type="submit" onClick={checkRSVP}>RVSP Now!</button></div>) : (<div><div>Thanks!!!!!!!</div>
                                 <br></br>
                                 <br></br>
                                 <input className="form-control" type="text" placeholder="Name"></input>
@@ -92,23 +89,23 @@ const Home = () => {
                                 <br></br>
                                 <input className="form-control" type="text" placeholder="Email"></input>
                                 <br></br>
-                                <button className="btn btn-warning mt-2" type="submit" onClick={checkRSVP}>RVSP NOW!</button></div>)}
-
+                                <button className="btn btn-warning mt-2" type="submit" onClick={checkRSVP}>Submit!</button></div>)}
                     </div>
-                    <div className="col-md-6 mt-0 rvsp text-center">
+                    <div className="col-md-6 rvsp text-center">
                         <h1 className="text-center registry-h1">
                             Gift<br></br>
                             Registry
                         </h1>
-                        <button className="btn btn-warning mt-5" type="submit" onClick={amazon}>Wedding Registry</button>
+                        <button className="btn btn-warning registry-button but" type="submit" onClick={amazon}>Wedding Registry</button>
                     </div>
                 </div>
                 <div className="row wedding-pic-content">
                     <div className="col-12 wedding-pic text-center" id="wedding-pic">
-                        <div id="our-story"><a id="our-story"href="">Our Story</a></div>
-                        <div style={{backgroundColor: "red"}}>f</div>
+                        <div id="our-story"><a id="our-story" href="">Our Story</a></div>
+                        <div style={{ backgroundColor: "red" }}>f</div>
                     </div>
                 </div>
+                {/* Contact Modal */}
                 <ContactModal></ContactModal>
             </div>
         </>
