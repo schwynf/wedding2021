@@ -52,7 +52,7 @@ const Home = () => {
             <Nav></Nav>
             <div class="container">
                 {/* first row */}
-                <div className="row mt-5" id="firstRow">
+                <div className="row" id="firstRow">
                     <div className="col-md-1 p-0 erase" id="firstDiv">
                     </div>
                     <div className="col-12 col-md-10 p-0" id="gradient">
@@ -104,7 +104,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="row wedding-pic-content">
-                    <div className="col-12 wedding-pic" id="wedding-pic">
+                    <div className="col-12 wedding-pic text-center" id="wedding-pic">
+                        <div id="our-story"><a id="our-story"href="">Our Story</a></div>
+                        <div style={{backgroundColor: "red"}}>f</div>
                     </div>
                 </div>
                 <ContactModal></ContactModal>

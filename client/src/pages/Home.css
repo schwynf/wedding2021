@@ -1,10 +1,13 @@
+
+
 #firstRow {
     background-image: url("../images/plaster.jpg");
-    height: 94vh;
+    /* height: 94vh; */
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 3.5rem;
 }
 .when-content-pink{
     background-color: rgb(253, 213, 195) ;
@@ -34,7 +37,9 @@
 
 
 #our-story{
-    color: rgb(218, 168, 32);
+    color:rgba(147, 140, 91, 1);
+    font-size: 80px;
+    margin-top: 45%;
 }
 
 
@@ -84,7 +89,7 @@
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    padding-top:45%;
+    padding-top:0%;
 }
 
 #border{
