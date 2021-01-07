@@ -85,6 +85,8 @@
 }
 
 
+
+
 #our-story{
     color:rgba(147, 140, 91, 1);
     font-size: 80px;
@@ -125,19 +127,10 @@
         padding-bottom: 2rem;
     }
 
-    .wedding-pic{
-        background-image: url("../images/wedding.JPG");
-        background-position: center;
-        background-repeat: no-repeat;
-        /* background-size: 100%; */
-        width:100%;
-        background-attachment: fixed;
-    }
-
-    /* .wedding-pic-content{
+    .wedding-pic-content{
         margin-top: 10%;
         display:none;
-    } */
+    }
 
     #border{
         height: 2rem;
