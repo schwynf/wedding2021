@@ -96,6 +96,17 @@
 
 @media (max-height: 700px) {
 
+    .wedding-pic{
+        background-image: url("../images/profilePic.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        padding-top:0%;
+        
+    }
+
     .when-font{
         font-size: 4rem;
     }
@@ -127,10 +138,10 @@
         padding-bottom: 2rem;
     }
 
-    .wedding-pic-content{
+    /* .wedding-pic-content{
         margin-top: 10%;
         display:none;
-    }
+    } */
 
     #border{
         height: 2rem;
