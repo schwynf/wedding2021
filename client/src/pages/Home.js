@@ -102,7 +102,6 @@ const Home = () => {
                 <div className="row wedding-pic-content">
                     <div className="col-12 wedding-pic text-center" id="wedding-pic">
                         <div id="our-story"><a id="our-story" href="">Our Story</a></div>
-                        <div style={{ backgroundColor: "red" }}>f</div>
                     </div>
                 </div>
                 {/* Contact Modal */}

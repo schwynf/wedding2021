@@ -53,8 +53,8 @@
 
 .registry{
     background-color: rgb(247, 244, 237);
-    padding-top:2rem;
-    padding-bottom: 8.35rem;
+    padding-top:4rem;
+    padding-bottom: 9.5rem;
 }
 
 .registry-h1{
@@ -64,7 +64,8 @@
 
 .rvsp{
     background-color: rgb(253, 213, 195) ;
-    padding-top: 8%;
+    padding-top: 7.5rem;
+    padding-bottom: 9.5rem;
 }
 
 .registry-button{
@@ -124,10 +125,10 @@
         padding-bottom: 2rem;
     }
 
-    .wedding-pic-content{
+    /* .wedding-pic-content{
         margin-top: 10%;
         display:none;
-    }
+    } */
 
     #border{
         height: 2rem;
