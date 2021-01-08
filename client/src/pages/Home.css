@@ -97,7 +97,7 @@
 @media (max-height: 700px) {
 
     .wedding-pic{
-        background-image: url("../images/profilePic.jpg");
+        background-image: url("../images/weddingM.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -114,9 +114,16 @@
     .tt{
         font-size: 1.5rem;
     }
-    /* #registry-rvsp-content{
-        margin-top: 50px;
-    } */
+
+    .when-content-pink{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .when-content-beige{
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+    }
 
     .registry{
         background-color: rgb(253, 213, 195) ;
