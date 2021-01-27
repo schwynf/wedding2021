@@ -12,6 +12,7 @@ import "./Home.css"
 import Confetti from "../component/Confetti"
 import * as Scroll from 'react-scroll';
 import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const Home = () => {
@@ -77,11 +78,14 @@ const Home = () => {
                     </div>
                     <div className="col-md-6 when-content-beige time-font text-center tt">
                      
+                        <Zoom bottom>
 
                         <div>FRIDAY, 08.09.2020 <br></br>E Jomax Rd, Phoenix</div>
                         <div className="" id="3"><span className="time">3 pm</span> Arrival</div>
                         <div className="mt-3" id="4"><span className="time">4 pm</span> Ceremony</div>
                         <div className=" mt-3 time-bgcolor" id="5"><span className="time">5 pm</span> Celebration</div>
+                        </Zoom>
+                        
                        
                     </div>
                 </div>
