@@ -64,29 +64,29 @@ const Home = () => {
                     <div className="col-md-6 when-content-pink">
                         <Slide left>
 
-                        <div className="text-center">JOIN US!</div>
-                        <br></br>
-                        <div id="border"></div>
+                            <div className="text-center">JOIN US!</div>
+                            <br></br>
+                            <div id="border"></div>
 
-                        <h1 className="when-font text-center">
-                            When
+                            <h1 className="when-font text-center">
+                                When
                         </h1>
-                        <h1 className="when-font text-center"> &Where</h1>
+                            <h1 className="when-font text-center"> &Where</h1>
                         </Slide>
 
-                       
+
                     </div>
                     <div className="col-md-6 when-content-beige time-font text-center tt">
-                     
+
                         <Zoom bottom>
 
-                        <div>FRIDAY, 08.09.2020 <br></br>E Jomax Rd, Phoenix</div>
-                        <div className="" id="3"><span className="time">3 pm</span> Arrival</div>
-                        <div className="mt-3" id="4"><span className="time">4 pm</span> Ceremony</div>
-                        <div className=" mt-3 time-bgcolor" id="5"><span className="time">5 pm</span> Celebration</div>
+                            <div>FRIDAY, 08.09.2021 <br></br>E Jomax Rd, Phoenix</div>
+                            <div className="" id="3"><span className="time">3 pm</span> Arrival</div>
+                            <div className="mt-3" id="4"><span className="time">4 pm</span> Ceremony</div>
+                            <div className=" mt-3 time-bgcolor" id="5"><span className="time">5 pm</span> Celebration</div>
                         </Zoom>
-                        
-                       
+
+
                     </div>
                 </div>
                 {/* Registry/RSVP */}
@@ -106,22 +106,29 @@ const Home = () => {
                                 <button className="btn btn-warning mt-2" type="submit" onClick={checkRSVP}>Submit!</button></div>)}
                     </div>
                     <div className="col-md-6 rvsp text-center">
-                      
+
 
                         <h1 className="text-center registry-h1">
                             Gift<br></br>
                             Registry
                         </h1>
                         <button className="btn btn-warning registry-button but" type="submit" onClick={amazon}>Wedding Registry</button>
-                     
+
                     </div>
                 </div>
                 <div className="row wedding-pic-content">
                     <div className="col-12 wedding-pic text-center" id="wedding-pic">
                         <div id="our-story"><a id="our-story" href="">Our Story</a></div>
                     </div>
+
                 </div>
                 {/* Contact Modal */}
+                <div class="fixed">
+                   It's a celebration!
+                </div>
+                <div class="fixed1">
+                    October 9th, 2021
+                </div>
                 <ContactModal></ContactModal>
             </div>
         </>

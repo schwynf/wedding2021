@@ -1,5 +1,24 @@
 /* first row */
-
+div.fixed {
+    color:rgba(147, 140, 91, 1);
+    font-size: 20px;
+    font-Family: 'Sansita Swashed';
+    position: fixed;
+    bottom: 30%;
+    right: 0;
+    width: 300px;
+    transform: rotate(90deg);
+  }
+div.fixed1 {
+    color:rgba(147, 140, 91, 1);
+    font-size: 20px;
+    font-Family: 'Sansita Swashed';
+    position: fixed;
+    bottom: 50%;
+    left: 0;
+    width: 300px;
+    transform: rotate(-90deg);
+  }
 #firstRow {
     background-image: url("../images/plaster.jpg");
     background-position: center;
@@ -95,6 +114,13 @@
 
 
 @media (max-height: 700px) {
+
+    div.fixed {
+        display: none;
+      }
+    div.fixed1 {
+        display: none;
+      }
 
     .wedding-pic{
         background-image: url("../images/weddingM.jpg");
