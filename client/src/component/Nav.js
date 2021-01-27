@@ -25,9 +25,11 @@ const Nav = () => {
                                 <a className="nav-link">RSVP</a>
                             </Link>
                         </li>
+                        <div style={{marginLeft:"13px"}}>
                         <Link activeClass="active" to="firstRow" spy={true} smooth={true} offset={-57} duration={600}>
                             <a className="navbar-brand font-weight-bolder text-center" id="nav">S&K</a>
                         </Link>
+                        </div>
                         <li className="nav-item">
                             <Link activeClass="active" to="wedding-pic" spy={true} smooth={true} offset={-50} duration={600}>
                                 <a className="nav-link">Story</a>

@@ -61,7 +61,8 @@ const Home = () => {
                 {/* {Join Us Content} */}
                 <div className="row" id="when-content">
                     <div className="col-md-6 when-content-pink">
-                        
+                        <Slide left>
+
                         <div className="text-center">JOIN US!</div>
                         <br></br>
                         <div id="border"></div>
@@ -70,6 +71,7 @@ const Home = () => {
                             When
                         </h1>
                         <h1 className="when-font text-center"> &Where</h1>
+                        </Slide>
 
                        
                     </div>
