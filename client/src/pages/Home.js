@@ -14,6 +14,7 @@ import * as Scroll from 'react-scroll';
 import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import Carousel from 'react-bootstrap/Carousel'
 
 const Home = () => {
 
@@ -116,15 +117,57 @@ const Home = () => {
 
                     </div>
                 </div>
-                <div className="row wedding-pic-content">
+                <div className="row">
+                    <div className="col-12">
+                    <Carousel className="carousel-div" id="wedding-pic">
+                    <Carousel.Item interval={2000}>
+                        <img
+                            className="d-block w-100 carousel"
+                            src={Redbird}
+                            alt="First slide"
+                        />
+                        <Carousel.Caption>
+                            <h3>First slide label</h3>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <img
+                            className="d-block w-100 carousel"
+                            src={Wedding}
+                            alt="Third slide"
+                        />
+                        <Carousel.Caption>
+                            <h3>Second slide label</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <img
+                            className="d-block w-100 carousel"
+                            src={Redbird}
+                            alt="Third slide"
+                        />
+                        <Carousel.Caption>
+                            <h3>Third slide label</h3>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+                    </div>
+                </div>
+                
+
+
+                {/* <div className="row wedding-pic-content">
                     <div className="col-12 wedding-pic text-center" id="wedding-pic">
                         <div id="our-story"><a id="our-story" href="">Our Story</a></div>
                     </div>
 
-                </div>
+                </div> */}
                 {/* Contact Modal */}
                 <div class="fixed">
-                   It's a celebration!
+                    It's a celebration!
                 </div>
                 <div class="fixed1">
                     October 9th, 2021

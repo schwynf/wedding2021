@@ -92,28 +92,18 @@ div.fixed1 {
 }
 
 
-/* Picuture for story */
-.wedding-pic{
-    background-image: url("../images/wedding.JPG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    padding-top:0%;
+.carousel{
+    height: 700px;
 }
-
-
-
-
-#our-story{
-    color:rgba(147, 140, 91, 1);
-    font-size: 80px;
-    margin-top: 45%;
-}
-
 
 @media (max-height: 700px) {
+    .carousel{
+        height: 300px;
+    }
+    .carousel-div{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
     div.fixed {
         display: none;
@@ -121,17 +111,6 @@ div.fixed1 {
     div.fixed1 {
         display: none;
       }
-
-    .wedding-pic{
-        background-image: url("../images/weddingM.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        height: 100vh;
-        padding-top:0%;
-        
-    }
 
     .when-font{
         font-size: 4rem;
@@ -169,11 +148,6 @@ div.fixed1 {
         background-color: rgb(247, 244, 237);
         padding-top:3.3rem;
         padding-bottom: 2rem;
-    }
-
-    .wedding-pic-content{
-        margin-top: 10%;
-        display:none;
     }
 
     #border{
