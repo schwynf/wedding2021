@@ -5,4 +5,6 @@
 
 a:active {
     color: yellow;
-  }
+}
+
+li { cursor: pointer; }

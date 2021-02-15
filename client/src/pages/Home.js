@@ -53,7 +53,7 @@ const Home = () => {
         <>
             <Confetti></Confetti>
             <Nav></Nav>
-            <div class="container">
+            <div className="container">
                 {/* first row */}
                 <div className="row" id="firstRow">
                     <div className="col-12 col-md-10 p-0" style={{ margin: "auto" }} id="gradient">
@@ -118,7 +118,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-12 p-0">
                     <Carousel className="carousel-div" id="wedding-pic">
                     <Carousel.Item interval={2000}>
                         <img
@@ -166,10 +166,10 @@ const Home = () => {
 
                 </div> */}
                 {/* Contact Modal */}
-                <div class="fixed">
+                <div className="fixed">
                     It's a celebration!
                 </div>
-                <div class="fixed1">
+                <div className="fixed1">
                     October 9th, 2021
                 </div>
                 <ContactModal></ContactModal>
