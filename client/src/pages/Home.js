@@ -18,6 +18,8 @@ import Carousel from 'react-bootstrap/Carousel'
 const Home = () => {
 
     const [email, setEmail] = useState("");
+    const [name, setName] = useState("");
+    const [guest, setGuest] = useState("");
     const [password, setPassword] = useState("");
     const [rsvp, setRSVP] = useState(true);
 
@@ -34,13 +36,18 @@ const Home = () => {
         }
     };
 
-    let checkRSVP = (event) => {
+    let checkRSVP = async (event) => {
+        setRSVP(false)
+    }
+
+    const submitButton = async (event) => {
         event.preventDefault();
-        if (rsvp === true) {
-            setRSVP(false);
-        } else {
-            setRSVP(true)
-        }
+        let data = await axios.post("/email", {name: name, guest: guest, email: email});
+        console.log(data);
+        setRSVP(true);
+        setEmail("");
+        setName("");
+        setGuest("");
     }
 
     let amazon = () => {
@@ -80,7 +87,7 @@ const Home = () => {
 
                         <Zoom bottom>
 
-                            <div>FRIDAY, 08.09.2021 <br></br>E Jomax Rd, Phoenix</div>
+                            <div>FRIDAY, 08.08.2021 <br></br>E Jomax Rd, Phoenix</div>
                             <div className="" id="3"><span className="time">3 pm</span> Arrival</div>
                             <div className="mt-3" id="4"><span className="time">4 pm</span> Ceremony</div>
                             <div className=" mt-3 time-bgcolor" id="5"><span className="time">5 pm</span> Celebration</div>
@@ -97,13 +104,13 @@ const Home = () => {
                             <button className="btn btn-warning mt-2 but" type="submit" onClick={checkRSVP}>RVSP Now!</button></div>) : (<div><div>Thanks!!!!!!!</div>
                                 <br></br>
                                 <br></br>
-                                <input className="form-control" type="text" placeholder="Name"></input>
+                                <input onChange={event => setName(event.target.value)} value={name} className="form-control" type="text" placeholder="Name"></input>
                                 <br></br>
-                                <input className="form-control" type="text" placeholder="Guest"></input>
+                                <input onChange={event => setGuest(event.target.value)} value={guest} className="form-control" type="text" placeholder="Guest"></input>
                                 <br></br>
-                                <input className="form-control" type="text" placeholder="Email"></input>
+                                <input onChange={event => setEmail(event.target.value)} value={email} className="form-control" type="text" placeholder="Email"></input>
                                 <br></br>
-                                <button className="btn btn-warning mt-2" type="submit" onClick={checkRSVP}>Submit!</button></div>)}
+                                <button className="btn btn-warning mt-2" type="submit" onClick={submitButton}>Submit!</button></div>)}
                     </div>
                     <div className="col-md-6 rvsp text-center">
 
@@ -169,7 +176,7 @@ const Home = () => {
                     It's a celebration!
                 </div>
                 <div className="fixed1">
-                    October 9th, 2021
+                    October 8th, 2021
                 </div>
                 <ContactModal></ContactModal>
             </div>

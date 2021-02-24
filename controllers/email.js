@@ -1,11 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const passport = require("passport");
 const db = require("../models");
 const nodemailer = require('nodemailer');
 
 router.post("/email", async function (req, res, next) {
     try {
+        console.log(req.body)
         await db.Email.create(req.body);
         let transporter = nodemailer.createTransport({
             service: 'gmail',
@@ -17,9 +17,9 @@ router.post("/email", async function (req, res, next) {
 
         let info = await transporter.sendMail({
             from: `${req.body.email}`,
-            to: "schwynf@gmail.com",
-            subject: `${req.body.name}`,
-            text: `${req.body.message}`,
+            to: "knkobur@gmail.com",
+            subject: `Reservation`,
+            text: `Reservation for ${req.body.name} and ${req.body.guest}`,
         });
 
         console.log("Message sent: %s", info.messageId);

@@ -2,8 +2,8 @@ const { Schema, model } = require("mongoose");
 
 const emailSchema = new Schema({
     name: String,
+    guest: String,
     email: String,
-    message: String,
     date: {
         type: Date,
         default: Date.now()

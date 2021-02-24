@@ -7,10 +7,10 @@ const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser")
 
 // const adminController = require("./controllers/admin");
-// const emailController = require("./controllers/email");
+const emailController = require("./controllers/email");
 
 //database connection
-// mongoose.connect(process.env.MONGO_DB, {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(process.env.MONGO_DB, {useNewUrlParser: true, useUnifiedTopology: true});
 
 
 // Define middleware here
@@ -25,7 +25,7 @@ if (process.env.NODE_ENV === "production") {
 
 
 // Add routes
-// app.use(emailController);
+app.use(emailController);
 app.use((req, res) => {
     switch (process.env.NODE_ENV) {
       case 'dev':
