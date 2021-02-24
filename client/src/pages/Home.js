@@ -10,7 +10,6 @@ import EmailModal from "../component/EmailModal"
 import Nav from "../component/Nav"
 import "./Home.css"
 import Confetti from "../component/Confetti"
-import * as Scroll from 'react-scroll';
 import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
@@ -118,7 +117,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-12 p-0">
+                    <div className="col-12 pl-0 pr-0 wedding-car">
                     <Carousel className="carousel-div" id="wedding-pic">
                     <Carousel.Item interval={2000}>
                         <img

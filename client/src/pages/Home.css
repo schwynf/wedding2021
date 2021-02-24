@@ -161,6 +161,11 @@ div.fixed1 {
 }
 
 @media (max-height: 700px) {
+    .wedding-car {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
     #firstRow {
         height: 86vh;
     }
