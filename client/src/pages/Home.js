@@ -42,7 +42,7 @@ const Home = () => {
 
     const submitButton = async (event) => {
         event.preventDefault();
-        let data = await axios.post("/email", {name: name, guest: guest, email: email});
+        let data = await axios.post("/email", { name: name, guest: guest, email: email });
         console.log(data);
         setRSVP(true);
         setEmail("");
@@ -77,7 +77,7 @@ const Home = () => {
 
                             <h1 className="when-font text-center">
                                 When
-                        </h1>
+                            </h1>
                             <h1 className="when-font text-center"> &Where</h1>
                         </Slide>
 
@@ -125,44 +125,44 @@ const Home = () => {
                 </div>
                 <div className="row">
                     <div className="col-12 pl-0 pr-0 wedding-car">
-                    <Carousel className="carousel-div" id="wedding-pic">
-                    <Carousel.Item interval={2000}>
-                        <img
-                            className="d-block w-100 carousel"
-                            src={Redbird}
-                            alt="First slide"
-                        />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item interval={2000}>
-                        <img
-                            className="d-block w-100 carousel"
-                            src={Wedding}
-                            alt="Third slide"
-                        />
-                        <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item interval={2000}>
-                        <img
-                            className="d-block w-100 carousel"
-                            src={Redbird}
-                            alt="Third slide"
-                        />
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+                        <Carousel className="carousel-div" id="wedding-pic">
+                            <Carousel.Item interval={5000}>
+                                <img
+                                    className="d-block w-100 carousel"
+                                    src={Redbird}
+                                    alt="First slide"
+                                />
+                                <Carousel.Caption>
+                                    <h3>Year 1</h3>
+                                    <p>WE MET AT ILLINOIS STATE UNIVERSITY AT A FRIENDS PARTY...HE'S IN THE PICTURE.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item interval={5000}>
+                                <img
+                                    className="d-block w-100 carousel"
+                                    src={Wedding}
+                                    alt="Third slide"
+                                />
+                                <Carousel.Caption>
+                                    <h3>Year 4</h3>
+                                    <p>IN BERKLEY CELEBRATING A WEDDING.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item interval={5000}>
+                                <img
+                                    className="d-block w-100 carousel"
+                                    src={Redbird}
+                                    alt="Third slide"
+                                />
+                                <Carousel.Caption>
+                                    <h3>Third slide label</h3>
+                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                        </Carousel>
                     </div>
                 </div>
-                
+
 
 
                 {/* <div className="row wedding-pic-content">

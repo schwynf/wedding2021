@@ -8,7 +8,7 @@ const Nav = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand navbar-light bg-light fixed-top" id="nav" style={{ fontFamily: 'Sansita Swashed' }}>
+            <nav className="navbar navbar-expand navbar-light  fixed-top" id="nav" style={{ fontFamily: 'Sansita Swashed', backgroundColor:"white" }}>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
