@@ -63,7 +63,10 @@ const Home = () => {
                 {/* first row */}
                 <div className="row" id="firstRow">
                     <div className="col-12 col-md-10 p-0" style={{ margin: "auto" }} id="gradient">
+                        <div style={{width:"100%"}}>
+
                         <HomeContent></HomeContent>
+                        </div>
                     </div>
                 </div>
                 {/* {Join Us Content} */}
@@ -160,15 +163,6 @@ const Home = () => {
                         </Carousel>
                     </div>
                 </div>
-
-
-
-                {/* <div className="row wedding-pic-content">
-                    <div className="col-12 wedding-pic text-center" id="wedding-pic">
-                        <div id="our-story"><a id="our-story" href="">Our Story</a></div>
-                    </div>
-
-                </div> */}
                 {/* Contact Modal */}
                 <div className="fixed">
                     It's a celebration!

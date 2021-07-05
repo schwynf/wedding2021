@@ -96,7 +96,7 @@ div.fixed1 {
     height: 700px;
 }
 
-@media (max-height: 700px) {
+@media (max-height: 800px) {
     .carousel{
         height: 300px;
     }
