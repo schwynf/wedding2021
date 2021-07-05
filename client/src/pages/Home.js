@@ -134,7 +134,17 @@ const Home = () => {
                                 />
                                 <Carousel.Caption>
                                     <h3>Year 1</h3>
-                                    <p>WE MET AT ILLINOIS STATE UNIVERSITY AT A FRIENDS PARTY...HE'S IN THE PICTURE.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item interval={5000}>
+                                <img
+                                    className="d-block w-100 carousel"
+                                    src={Redbird}
+                                    alt="Third slide"
+                                />
+                                <Carousel.Caption>
+                                    <h3>Year 2</h3>
+                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item interval={5000}>
@@ -145,18 +155,6 @@ const Home = () => {
                                 />
                                 <Carousel.Caption>
                                     <h3>Year 4</h3>
-                                    <p>IN BERKLEY CELEBRATING A WEDDING.</p>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item interval={5000}>
-                                <img
-                                    className="d-block w-100 carousel"
-                                    src={Redbird}
-                                    alt="Third slide"
-                                />
-                                <Carousel.Caption>
-                                    <h3>Third slide label</h3>
-                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
