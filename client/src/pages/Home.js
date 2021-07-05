@@ -137,6 +137,7 @@ const Home = () => {
                                 />
                                 <Carousel.Caption>
                                     <h3>Year 1</h3>
+                                    <p>Thug Life!</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item interval={5000}>
@@ -147,7 +148,7 @@ const Home = () => {
                                 />
                                 <Carousel.Caption>
                                     <h3>Year 2</h3>
-                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                    <p>Thug Life!.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item interval={5000}>
@@ -158,6 +159,7 @@ const Home = () => {
                                 />
                                 <Carousel.Caption>
                                     <h3>Year 4</h3>
+                                    <p>Berkley Wedding</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
