@@ -96,7 +96,7 @@ div.fixed1 {
     height: 700px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1030px), (max-height:700) {
     .carousel{
         height: 300px;
     }
@@ -154,13 +154,6 @@ div.fixed1 {
         height: 2rem;
     }
 
-    
-
-
-
-}
-
-@media (max-height: 700px) {
     .wedding-car {
         background-color: white;
     }
@@ -176,5 +169,26 @@ div.fixed1 {
     .but{
         margin-bottom: 40px;
     }
+
+
+
 }
+
+/* @media (max-height: 700px) {
+    .wedding-car {
+        background-color: white;
+    }
+
+    #firstRow {
+        height: 86vh;
+    }
+    #story-img{
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .but{
+        margin-bottom: 40px;
+    }
+} */
 
